@@ -12,10 +12,10 @@ const Navbar = () => {
 	return (
 		<>
 			<Nav>
-				<Bars />
 				<NavLink to="/">
 					DW
 				</NavLink>
+				<Bars />
 
 				<NavMenu>
 					<NavLink to="/about" >

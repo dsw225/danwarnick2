@@ -1,0 +1,10 @@
+/* globalStyles.css */
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../../../public/fonts/Raleway/Raleway-ExtraBold.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}

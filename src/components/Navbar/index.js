@@ -7,7 +7,8 @@ import {
 	Bars,
 	NavMenu,
 } from "./NavbarElements";
-
+import './navbar.css';
+ 
 const Navbar = () => {
 	return (
 		<>
@@ -19,13 +20,13 @@ const Navbar = () => {
 
 				<NavMenu>
 					<NavLink to="/about" >
-						About
+						ABOUT
 					</NavLink>
 					<NavLink to="/projects" activeStyle>
-						Projects
+						PROJECTS
 					</NavLink>
 					<NavLink to="/contact" activeStyle>
-						Contact
+						CONTACT
 					</NavLink>
 					{/* Second Nav */}
 					{/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}

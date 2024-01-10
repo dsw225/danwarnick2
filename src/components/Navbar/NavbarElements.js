@@ -9,10 +9,10 @@ export const Nav = styled.nav`
 	height: 85px;
 	display: flex;
 	justify-content: space-between;
-	padding: 0.2rem calc((100vw - 1800px) / 2);
 	z-index: 12;
-	/* Third Nav */
-	/* justify-content: flex-start; */
+	position: fixed;
+	width: 100%;
+	top: 0;
 `;
 
 export const NavLink = styled(Link)`
@@ -34,7 +34,7 @@ export const NavLink = styled(Link)`
 export const Bars = styled(FaBars)`
 	display: none;
 	color: #ffffff;
-	@media screen and (max-width: 768px) {
+	@media screen and (max-width: 700px) {
 		display: block;
 		align-items: center;
 		position: absolute;
@@ -51,7 +51,12 @@ export const NavMenu = styled.div`
 	align-items: center;
 	margin-right: 24px;
 	white-space: nowrap; 
-	@media screen and (max-width: 768px) {
+	@media screen and (max-width: 700px) {
 		display: none;
 	}
+`;
+
+export const ContentWrapper = styled.div`
+  margin-top: 85px; /* Adjust this value based on your navbar height */
+  padding: 20px; /* Adjust this value based on your design */
 `;

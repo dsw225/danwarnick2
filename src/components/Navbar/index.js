@@ -6,16 +6,19 @@ import {
 	NavLink,
 	Bars,
 	NavMenu,
+	NavName,
 } from "./NavbarElements";
-import './navbar.css';
+import '../../global.css';
  
 const Navbar = () => {
 	return (
 		<>
 			<Nav>
-				<NavLink to="/">
-					DW
-				</NavLink>
+				<NavName>
+					<NavLink to="/">
+						DAN WARNICK
+					</NavLink>
+				</NavName>
 				<Bars />
 
 				<NavMenu>

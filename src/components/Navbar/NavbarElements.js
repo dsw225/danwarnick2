@@ -5,7 +5,8 @@ import { NavLink as Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const Nav = styled.nav`
-	background: #111111;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+	background: rgba(17, 17, 17, 0.5); /* Use rgba for translucency */
 	height: 85px;
 	display: flex;
 	justify-content: space-between;
@@ -13,6 +14,7 @@ export const Nav = styled.nav`
 	position: fixed;
 	width: 100%;
 	top: 0;
+	backdrop-filter: blur(4px);
 `;
 
 export const NavLink = styled(Link)`
@@ -23,11 +25,8 @@ export const NavLink = styled(Link)`
 	padding: 0 2rem;
 	height: 100%;
 	cursor: pointer;
-	&.hover {
-		color: #808080;
-	}
-	&.active {
-		color: #808080;
+	&:hover {
+		color: #c9c9c9;
 	}
 `;
 
@@ -51,9 +50,18 @@ export const NavMenu = styled.div`
 	align-items: center;
 	margin-right: 24px;
 	white-space: nowrap; 
+	padding: 0.2rem calc((100vw - 1200px) / 2);
 	@media screen and (max-width: 700px) {
 		display: none;
 	}
+	`;
+
+export const NavName = styled.div`
+	display: flex;
+	align-items: center;
+	margin-right: 24px;
+	white-space: nowrap; 
+	padding: 0.2rem calc((100vw - 1200px) / 2);
 `;
 
 export const ContentWrapper = styled.div`

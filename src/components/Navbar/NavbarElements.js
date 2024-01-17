@@ -66,5 +66,4 @@ export const NavName = styled.div`
 
 export const ContentWrapper = styled.div`
   margin-top: 85px; /* Adjust this value based on your navbar height */
-  padding: 20px; /* Adjust this value based on your design */
 `;

@@ -6,7 +6,7 @@ import styled from "styled-components";
 
 export const Nav = styled.nav`
   box-shadow: ${({ scrolling }) => scrolling ? '0 2px 4px 0 rgba(0, 0, 0, .2)' : 'none'};
-  background: ${({ scrolling }) => scrolling ? 'rgba(17, 17, 17, 0.5)' : 'transparent'};
+  background: ${({ scrolling }) => scrolling ? 'rgba(58, 175, 169, .5)' : 'transparent'};
   height: 85px;
   display: flex;
   justify-content: space-between;
@@ -21,7 +21,11 @@ export const Nav = styled.nav`
 export const NavContainer = styled.nav`
 	display: flex;
 	white-space: nowrap;
-	padding: 0 calc((100vw - 1100px) / 2);
+  width: 100%;
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
 `;
 
 export const NavLink = styled(Link)`
@@ -41,14 +45,6 @@ export const Bars = styled(FaBars)`
   display: none;
   color: #ffffff;
   @media screen and (max-width: 762px) {
-    display: block;
-    align-items: center;
-    position: absolute;
-    top: 0;
-    right: 0;
-    transform: translate(-100%, 110%);
-    font-size: 1.8rem;
-    cursor: pointer;
   }
 `;
 
@@ -64,7 +60,7 @@ export const NavMenu = styled.div`
 
 export const NavName = styled.div`
   display: flex;
-  align-items: center;
+  justify-content: flex-start;
   white-space: nowrap; 
 `;
 

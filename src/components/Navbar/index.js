@@ -56,4 +56,14 @@ const Navbar = () => {
   );
 };
 
+/*
+display: block;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 110%);
+    font-size: 1.8rem;
+    cursor: pointer; /*for bars*/ 
+
 export default Navbar;

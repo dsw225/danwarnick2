@@ -28,6 +28,25 @@ const Home = () => {
 							My academic focus reflects a strong interest in both front-end development and full-stack development, with particular passions for UI/UX design, and AI.
 						</p>
 					</div>
+					<div className='more-text'>
+						<h2>My Skills</h2>
+					</div>
+					<div className='skills-container'>
+						<div className='skills-bubble'>Java</div>
+						<div className='skills-bubble'>HTML</div>
+						<div className='skills-bubble'>CSS</div>
+						<div className='skills-bubble'>React</div>
+						<div className='skills-bubble'>JavaScript</div>
+						<div className='skills-bubble'>Python</div>
+						<div className='skills-bubble'>Graphic Design</div>
+						<div className='skills-bubble'>Adobe Photoshop</div>
+						<div className='skills-bubble'>Adobe Illustrator</div>
+						<div className='skills-bubble'>Adobe InDesign</div>
+						<div className='skills-bubble'>GIT</div>
+						<div className='skills-bubble'>Github</div>
+						<div className='skills-bubble'>SQL Basics</div>
+						<div className='skills-bubble'>Terminal</div>
+					</div>
 				</div>
 				<div className='third-block'>
 					<p>Third Temp</p>

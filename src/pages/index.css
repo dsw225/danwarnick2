@@ -58,7 +58,7 @@ h1, h2, h3, h4, h5, h6, p, .h1, .h2, .h3, .h4, .h5, .h6, .p {
     width: 100%;
     box-sizing: border-box;
 
-    padding: 7rem 1.4rem; /* FIX */
+    padding: 6rem 1.4rem; /* FIX */
     font-weight: 300;
     font-size: 1.5rem;
     background: var(--text-color);
@@ -135,4 +135,36 @@ h1, h2, h3, h4, h5, h6, p, .h1, .h2, .h3, .h4, .h5, .h6, .p {
     text-align: left;
     margin: auto;
     position: relative;
+}
+
+.more-text{
+    font-family: 'FuturaNew', sans-serif;
+    color: var(--background-color);
+
+    display: flex;
+    justify-content: left;
+    padding: 2rem calc((100vw - 1024px) / 2) 1rem;
+    align-items: center;
+    font-size: 1.48rem;
+    text-align: left;
+    margin: auto;
+    position: relative;
+}
+
+.skills-container{
+    padding: 0 calc((100vw - 1024px) / 2);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills-bubble{
+    font-family: 'FuturaNew', sans-serif;
+    justify-content: left;
+    padding: .5rem 1rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    font-size: 1.48rem;
+    background: var(--background-color);
+    border-radius: 5px;
+    color: var(--text-color);
 }

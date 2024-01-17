@@ -9,13 +9,17 @@ const Home = () => {
 	return (
 		<div>
 			<ContentWrapper>
-				<div className="home-container"> {/* Use the CSS class */}
-					<h1><TypewriterComponent /></h1>
+				<div className="first-block">
+					<div className="first-contain">
+						<div className="home-container"> {/* Use the CSS class */}
+							<h1><TypewriterComponent /></h1>
+						</div>
+						<div className='text-primary'>
+							<h2>Student, <br/> Developer, <br/> Engineer.</h2>
+							</div>
+					</div>
 				</div>
-				<div className='text-primary'>
-					<p>Current Student at Lehigh University P.C. Rossin College of Engineering and Applied Science, majoring in Computer Science (AI Track) with minors in Graphic Design and Data Science.</p>
-				</div>
-				<div className='text-primary'>
+				<div className='second-block'>
 					<p>Current Student at Lehigh University P.C. Rossin College of Engineering and Applied Science, majoring in Computer Science (AI Track) with minors in Graphic Design and Data Science.</p>
 				</div>
 				<div className='text-primary'>

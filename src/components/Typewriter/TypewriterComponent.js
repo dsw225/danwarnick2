@@ -8,10 +8,10 @@ export default function TypewriterComponent() {
     onInit={(typewriter) => {
         typewriter
         .pauseFor(500) //Half second pause
-        .typeString('DANWARNICK.IM')
+        .typeString('DanWarnick.Im')
         .pauseFor(1500) //Pause for 1.5 Seconds
         .deleteAll()
-        .typeString("I'M DAN WARNICK")
+        .typeString("I'm Dan Warnick")
         .callFunction(() => {
             console.log('String typed out!');
         })

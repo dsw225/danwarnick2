@@ -10,7 +10,7 @@ const Home = () => {
 	return (
 		<div>
 			<ContentWrapper>
-				<div className="first-block">
+				<div className="first-block" id="home">
 					<div className="first-contain">
 						<div className="home-container"> {/* Use the CSS class */}
 							<h1><TypewriterComponent /></h1>
@@ -20,7 +20,7 @@ const Home = () => {
 							</div>
 					</div>
 				</div>
-				<div className='second-block'>
+				<div className='second-block' id="about">
 					<div className='hello-container'>
 						<h2>Hi, I’m Dan. Nice to meet you.</h2>
 					</div>
@@ -49,7 +49,7 @@ const Home = () => {
 						<div className='skills-bubble'>Terminal</div>
 					</div>
 				</div>
-				<div className='third-block'>
+				<div className='third-block' id="projects">
 					<div className='projects-container'>
 						<h2>My Recent Work</h2>
 					</div>

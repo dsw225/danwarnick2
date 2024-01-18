@@ -8,6 +8,7 @@ import {
 	NavContainer,
 } from "./NavbarElements";
 import '../../global.css';
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const Navbar = () => {
   const [scrolling, setScrolling] = useState(false);
@@ -32,25 +33,33 @@ const Navbar = () => {
     <>
 		  <Nav id="myHeader" scrolling={scrolling}>
 			  <NavContainer>
-        <NavName>
-          <NavLink to="/">
-        	DW Dan Warnick
-          </NavLink>
-        </NavName>
-        <Bars />
+          <NavName>
+            <Link to="home" smooth={true} duration={500}>
+              <NavLink >
+              DW Dan Warnick
+              </NavLink>
+            </Link>
+          </NavName>
+          <Bars />
 
-        <NavMenu>
-          <NavLink to="/about" >
-            About
-          </NavLink>
-          <NavLink to="/projects" activeStyle>
-            Projects
-          </NavLink>
-          <NavLink to="/contact" activeStyle>
-            Contact
-          </NavLink>
-					  </NavMenu>
-					  </NavContainer>
+          <NavMenu>
+            <Link to="about" smooth={true} duration={500} offset={-30}>
+              <NavLink>
+                About
+              </NavLink>
+            </Link>
+            <Link to="projects" smooth={true} duration={500} offset={-30}>
+              <NavLink>
+                Projects
+              </NavLink>
+            </Link>
+            <Link to="contact" smooth={true} duration={500} offset={-30}>
+              <NavLink>
+                Contact
+              </NavLink>
+            </Link>
+          </NavMenu>
+        </NavContainer>
       </Nav>
     </>
   );

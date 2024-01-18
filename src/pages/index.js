@@ -4,6 +4,7 @@ import React from 'react';
 import './index.css'; // Import the CSS file
 import { ContentWrapper } from '../components/Navbar/NavbarElements';
 import TypewriterComponent from '../components/Typewriter/TypewriterComponent';
+import slapImg from '../images/slap_web.jpg';
 
 const Home = () => {
 	return (
@@ -49,7 +50,18 @@ const Home = () => {
 					</div>
 				</div>
 				<div className='third-block'>
-					<p>Third Temp</p>
+					<div className='projects-container'>
+						<h2>My Recent Work</h2>
+					</div>
+					<div className='projects-text'>
+						<p>Here are a few past design & coding projects I've worked on.</p>
+					</div>
+					<div className='projects-bubble-container'>
+						<div className='projects-bubble'>
+							<img src={slapImg} alt="Zoomed Image" className="zoom-img" />
+							Slap
+						</div>
+					</div>
 				</div>
 
 			</ContentWrapper>

@@ -9,16 +9,6 @@
 }
 
 @font-face {
-    font-family: 'Lulo';
-    src: url('../../public/fonts/Lulo Clean/Lulo Clean One.otf') format('truetype');
-}
-
-@font-face {
-    font-family: 'Trade';
-    src: url('../../public/fonts/TradeGothic/TradeGothicLT-Extended.woff') format('woff');
-}
-
-@font-face {
     font-family: 'FuturaNew';
     src: url('../../public/fonts/Futura/FuturaLT.woff') format('woff');
 }
@@ -71,11 +61,10 @@ h1, h2, h3, h4, h5, h6, p, .h1, .h2, .h3, .h4, .h5, .h6, .p {
     width: 100%;
     box-sizing: border-box;
 
-    padding: 6rem 0rem 6rem 1.4rem; /* FIX */
+    padding: 6rem 1.4rem; /* FIX */
     font-weight: 300;
     font-size: 1.5rem;
     color: var(--text-color);
-    padding-bottom: 24px;
 }
 
 .home-container {
@@ -165,6 +154,74 @@ h1, h2, h3, h4, h5, h6, p, .h1, .h2, .h3, .h4, .h5, .h6, .p {
     margin-right: 1rem;
     font-size: 1.48rem;
     background: var(--background-color);
-    border-radius: 5px;
+    border-radius: 0px;
     color: var(--text-color);
+    transition: background 0.3s ease;
+    cursor: default;
+    &:hover {
+        background: var(--primary-text-color);
+    }
+}
+
+.projects-container {
+    /*text-transform: uppercase;*/
+    font-family: 'FuturaNew', sans-serif;
+
+    display: flex;
+    justify-content: left;
+    padding: 0 calc((100vw - 1024px) / 2) 1rem;
+    align-items: center;
+    font-size: 2rem;
+    text-align: left;
+    margin: auto;
+    position: relative;
+}
+
+.projects-text{
+    /*text-transform: uppercase;*/
+    font-family: 'FuturaNew', sans-serif;
+
+    display: flex;
+    justify-content: left;
+    padding: 0 calc((100vw - 1024px) / 2);
+    align-items: center;
+    font-size: 1.48rem;
+    text-align: left;
+    margin: auto;
+    position: relative;
+    }
+
+.projects-bubble-container{
+    display: flex;
+
+    padding: 0 calc((100vw - 1024px) / 2);
+    flex-wrap: wrap;
+    margin: -.75rem;
+    perspective: 1000px;
+}
+
+.projects-bubble{
+    font-family: 'FuturaNew', sans-serif;
+    justify-content: left;
+    padding: 1rem 0;
+    width: 450px; /* Adjust the size as needed */
+    height: 350px; /* Adjust the size as needed */
+    margin: 20px;
+    position: relative;
+    display: flex;
+}
+      
+.zoom-img{
+    transform-style: preserve-3d;
+    transition: transform 0.3s;
+    cursor: default;
+    &:hover {
+        transform: scale(1.1);
+    }
+    width: 100%;
+    height: 100%;
+
+    border-radius: 5px;
+    object-fit: cover;
+    transition: transform 0.3s;
 }

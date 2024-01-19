@@ -24,6 +24,10 @@ h1, h2, h3, h4, h5, h6, p, .h1, .h2, .h3, .h4, .h5, .h6, .p {
     margin-bottom: 0;
 }
 
+a, .a{
+    color: var(--background-color);
+}
+
 .first-block{
     margin-top: -85px;
     @media screen and (min-height: 648px) {

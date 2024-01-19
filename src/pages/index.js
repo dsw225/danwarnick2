@@ -5,8 +5,8 @@ import './index.css'; // Import the CSS file
 import { ContentWrapper } from '../components/Navbar/NavbarElements';
 import TypewriterComponent from '../components/Typewriter/TypewriterComponent';
 import slapImg from '../images/slapdisplay.jpg';
-import gdImg from '../images/GDWork.jpg';
-import pgaImg from '../images/PGAWORK2.jpg';
+import gdImg from '../images/MAwork.jpg';
+import pgaImg from '../images/PGAalt.jpg';
 import dwImg from '../images/DanWarnick1.jpg';
 
 const Home = () => {
@@ -74,7 +74,7 @@ const Home = () => {
 							<div className="image-container">
 								<img src={gdImg} alt="Zoomed Image" className={`zoom-img ${isHovered ? 'hovered' : ''}`} />
 								<div className="image-text">
-									A few pieces of work I created for my Graphic Design Classes / Freelance.
+									Miscellaneous work from GD Classes + Internship + Freelance.
 								</div>
 							</div>
 						</div>
@@ -97,8 +97,10 @@ const Home = () => {
 					</div>
 				</div>
 				<div className='fourth-block' id="contact">
+				<div className='hello-container'>
+						<h2>Contact Me!</h2>
+					</div>
 
-					
 				</div>
 
 			</ContentWrapper>

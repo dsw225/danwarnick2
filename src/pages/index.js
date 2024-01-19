@@ -1,12 +1,17 @@
 // pages/index.js
 
-import React from 'react';
+import React, { useState } from 'react';
 import './index.css'; // Import the CSS file
 import { ContentWrapper } from '../components/Navbar/NavbarElements';
 import TypewriterComponent from '../components/Typewriter/TypewriterComponent';
-import slapImg from '../images/slap_web.jpg';
+import slapImg from '../images/slapdisplay.jpg';
+import gdImg from '../images/GDWork.jpg';
+import pgaImg from '../images/PGAWORK2.jpg';
+import dwImg from '../images/DanWarnick1.jpg';
 
 const Home = () => {
+	const [isHovered, setIsHovered] = useState(false);
+
 	return (
 		<div>
 			<ContentWrapper>
@@ -57,11 +62,43 @@ const Home = () => {
 						<p>Here are a few past design & coding projects I've worked on.</p>
 					</div>
 					<div className='projects-bubble-container'>
-						<div className='projects-bubble'>
-							<img src={slapImg} alt="Zoomed Image" className="zoom-img" />
-							Slap
+						<div className='projects-bubble' onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
+							<div className="image-container">
+								<img src={slapImg} alt="Zoomed Image" className={`zoom-img ${isHovered ? 'hovered' : ''}`} />
+								<div className="image-text">
+									With team, created a fully functioning web + mobile Twitter clone utilizing React, Dart, and PostgreSQL.
+								</div>
+							</div>
+						</div>
+						<div className='projects-bubble' onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
+							<div className="image-container">
+								<img src={gdImg} alt="Zoomed Image" className={`zoom-img ${isHovered ? 'hovered' : ''}`} />
+								<div className="image-text">
+									A few pieces of work I created for my Graphic Design Classes / Freelance.
+								</div>
+							</div>
+						</div>
+						<div className='projects-bubble' onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
+							<div className="image-container">
+								<img src={pgaImg} alt="Zoomed Image" className={`zoom-img ${isHovered ? 'hovered' : ''}`} />
+								<div className="image-text">
+									Graphic Design Intern at the NENY PGA over the summer of 2023. Generated original content for marketing through social media.
+								</div>
+							</div>
+						</div>
+						<div className='projects-bubble' onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
+							<div className="image-container">
+								<img src={dwImg} alt="Zoomed Image" className={`zoom-img ${isHovered ? 'hovered' : ''}`} />
+								<div className="image-text">
+									My <a href="https://dan-warnick1-danwarnick.vercel.app/" target="_blank">first portfolio website</a> creation attempt while I was first learning the basic of front-end development.
+								</div>
+							</div>
 						</div>
 					</div>
+				</div>
+				<div className='fourth-block' id="contact">
+
+					
 				</div>
 
 			</ContentWrapper>

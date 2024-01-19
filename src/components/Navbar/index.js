@@ -43,17 +43,17 @@ const Navbar = () => {
           <Bars />
 
           <NavMenu>
-            <Link to="about" smooth={true} duration={500} offset={-30}>
+            <Link to="about" smooth={true} duration={500} offset={-40}>
               <NavLink>
                 About
               </NavLink>
             </Link>
-            <Link to="projects" smooth={true} duration={500} offset={-30}>
+            <Link to="projects" smooth={true} duration={500} offset={-40}>
               <NavLink>
                 Projects
               </NavLink>
             </Link>
-            <Link to="contact" smooth={true} duration={500} offset={-30}>
+            <Link to="contact" smooth={true} duration={500} offset={-40}>
               <NavLink>
                 Contact
               </NavLink>

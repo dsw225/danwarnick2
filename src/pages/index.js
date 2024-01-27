@@ -90,19 +90,30 @@ const Home = () => {
 							<div className="image-container">
 								<img src={dwImg} alt="Zoomed Image" className={`zoom-img ${isHovered ? 'hovered' : ''}`} />
 								<div className="image-text">
-									My <a href="https://dan-warnick1-danwarnick.vercel.app/" target="_blank">first portfolio website</a> creation attempt while I was first learning the basic of front-end development.
+									My <a href="https://dan-warnick1-danwarnick.vercel.app/" target="_blank">first portfolio website</a> creation attempt while I was first learning the basics of front-end development.
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 				<div className='fourth-block' id="contact">
-				<div className='hello-container'>
+					<div className='hello-container'>
 						<h2>Contact Me!</h2>
 					</div>
-
+					<div className='hello-text' style={{ lineHeight: '3.5rem' }}>
+						<ul>
+							<li>Email: <a href="mailto:dsw225@lehigh.edu" target="_blank">dsw225@lehigh.edu</a></li>
+							<li>LinkedIn: <a href="https://www.linkedin.com/in/dan-warnick/" target="_blank">Dan Warnick</a></li>
+							<li>My Resume: <a href="https://drive.google.com/file/d/1nbo-5j95yVGYlddiUgK99ej3Q8GP5Mky/view?usp=sharing" target="_blank">Resume</a></li>
+							<li>GitHub: <a href="https://github.com/dsw225/" target="_blank">@dsw225</a></li>
+						</ul>
+					</div>
 				</div>
-
+				<div className='fifth-block'>
+					<div className='hello-text' style={{ fontSize: '1rem' }}>
+						<p>2024 © Dan Warnick</p>
+					</div>
+				</div>
 			</ContentWrapper>
 		</div>		
   );

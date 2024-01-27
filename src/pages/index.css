@@ -1,7 +1,7 @@
 /* Home.css */
 
 :root { /* https://www.awwwards.com/sites/serio-verify#typography */
-    --background-color: #3AAFA9; /* #49c5b6 or #3AAFA9 */
+    --background-color: #49c5b6; /* #49c5b6 or #3AAFA9 https://www.awwwards.com/sites/serio-verify#typography*/
     --text-color: #FFFFFF;
     --primary-text-color: #17252A;
     --secondary-text-color : #9C9C9C;
@@ -72,6 +72,19 @@ a, .a{
 }
 
 .fourth-block{
+    align-items: center; /* Align items at the start (top) */
+    width: 100%;
+    box-sizing: border-box;
+
+    padding: 6rem 1.4rem; /* FIX */
+    font-weight: 300;
+    font-size: 1.5rem;
+    background: var(--text-color);
+    color: rgba(0,0,0,.8);
+    /*box-shadow: 0px 3px 1px -2px rgba(0,0,0,.2), 0px 2px 2px 0px rgba(0,0,0,.14), 0px 1px 5px 0px rgba(0,0,0,.12);*/
+}
+
+.fifth-block{
     align-items: center; /* Align items at the start (top) */
     width: 100%;
     box-sizing: border-box;

@@ -43,7 +43,7 @@ const Navbar = () => {
           <Bars />
 
           <NavMenu>
-            <Link to="about" smooth={true} duration={500} offset={-40}>
+            <Link to="about" smooth={true} duration={500} offset={-100}>
               <NavLink>
                 About
               </NavLink>
@@ -53,7 +53,7 @@ const Navbar = () => {
                 Projects
               </NavLink>
             </Link>
-            <Link to="contact" smooth={true} duration={500} offset={-40}>
+            <Link to="contact" smooth={true} duration={500} offset={-60}>
               <NavLink>
                 Contact
               </NavLink>

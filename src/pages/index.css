@@ -235,14 +235,13 @@ a, .a{
 .projects-bubble {
     font-family: 'FuturaNew', sans-serif;
     padding: 1rem;
-    width: 450px; /* Adjust the size as needed */
+    max-width: 450px; /* Adjust the size as needed */
     height: 280px; /* Adjust the size as needed */
     position: relative;
     display: flex;
 }
 
 .image-container {
-    width: 100%;
     height: 100%;
     border-radius: 9px;
     overflow: hidden;

@@ -21,7 +21,7 @@ const Home = () => {
 							<h1><TypewriterComponent /></h1>
 						</div>
 						<div className='text-primary'>
-							<h2>Student, <br/>Aspiring Developer.</h2>
+							<h2>Student,<br/>Aspiring Developer & <br/>Data Analyst</h2>
 							</div>
 					</div>
 				</div>
@@ -39,6 +39,8 @@ const Home = () => {
 					</div>
 					<div className='skills-container'>
 						<div className='skills-bubble'>Python</div>
+						<div className='skills-bubble'>Machine Learning</div>
+						<div className='skills-bubble'>Data Analytics</div>
 						<div className='skills-bubble'>Java</div>
 						<div className='skills-bubble'>HTML</div>
 						<div className='skills-bubble'>CSS</div>

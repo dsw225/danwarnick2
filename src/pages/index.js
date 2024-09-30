@@ -104,7 +104,7 @@ const Home = () => {
 						<ul>
 							<li>Email: <a href="mailto:dsw225@lehigh.edu" target="_blank">dsw225@lehigh.edu</a></li>
 							<li>LinkedIn: <a href="https://www.linkedin.com/in/dan-warnick/" target="_blank">Dan Warnick</a></li>
-							<li>My Resume: <a href="https://drive.google.com/file/d/1SYO2zLX9Z-1yOsgA0NZYuLLpYN_b19DC/view?usp=sharing" target="_blank">Resume</a></li>
+							<li>My Resume: <a href="https://drive.google.com/file/d/15x8M8ap9AUS9gitJiaIY68xREg9oqyJw/view?usp=sharing" target="_blank">Resume</a></li>
 							<li>GitHub: <a href="https://github.com/dsw225/" target="_blank">@dsw225</a></li>
 						</ul>
 					</div>

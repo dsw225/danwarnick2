@@ -31,7 +31,7 @@ const Home = () => {
 					</div>
 					<div className='hello-text'>
 						<p>Currently a Student at Lehigh University P.C. Rossin College of Engineering and Applied Science, majoring in Computer Science on the Artificial Intelligence Track, with minors in Graphic Design and Data Science.
-							My academic focus reflects a strong interest in both data-science, and full-stack development, with particular passions for machine learning, and AI.
+							My academic focus reflects a strong interest in both data-science, and analytics, with particular passions for machine learning, and AI.
 						</p>
 					</div>
 					<div className='more-text'>
@@ -106,7 +106,7 @@ const Home = () => {
 						<ul>
 							<li>Email: <a href="mailto:dsw225@lehigh.edu" target="_blank">dsw225@lehigh.edu</a></li>
 							<li>LinkedIn: <a href="https://www.linkedin.com/in/dan-warnick/" target="_blank">Dan Warnick</a></li>
-							<li>My Resume: <a href="https://drive.google.com/file/d/15x8M8ap9AUS9gitJiaIY68xREg9oqyJw/view?usp=sharing" target="_blank">Resume</a></li>
+							<li>My Resume: <a href="https://docs.google.com/document/d/1TpptLYDtv3nYBRrzmKpP7e1hxjzceJ7JZouaaFU_E4c/edit?usp=sharing" target="_blank">Resume</a></li>
 							<li>GitHub: <a href="https://github.com/dsw225/" target="_blank">@dsw225</a></li>
 						</ul>
 					</div>
